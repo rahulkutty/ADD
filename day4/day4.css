@@ -1,0 +1,55 @@
+/* day4.css */
+
+/* Styling the background */
+body {
+    background-image: url('istockphoto-1458664845-170667a.webp'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Fallback font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes the full height of the viewport */
+}
+
+/* Styling the box */
+.box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    text-align: center;
+}
+
+/* Styling input fields */
+input[type="number"] {
+    width: 140px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure the padding and border are included in the width */
+}
+
+/* Styling the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the result paragraph */
+#three {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
